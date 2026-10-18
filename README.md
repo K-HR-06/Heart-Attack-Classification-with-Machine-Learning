@@ -69,3 +69,12 @@ The hyperparameter searches include many model fits and may take substantial tim
 - The CSV contains an alcohol-consumption category named `None`. The notebook reads it as missing and randomly replaces it with `Moderate` or `High`, altering the original category information.
 - An earlier preprocessing section uses an 80/20 split, scaling, and outlier removal. The final models use a separate 70/30 split built from `df_fe`, so those earlier transformations are not applied to the final model inputs.
 - Saved outputs include Logistic Regression convergence warnings. Random imputation also has no fixed NumPy seed, so rerun results may differ.
+
+## Authors
+
+Computer Science and Statistics, BINUS University
+
+- Ann A. Halim
+- A. Izzatil Isma
+- Carmenita Angelica
+- Marcell Prasetyo
